@@ -1,0 +1,157 @@
+html, body
+{
+width:100%;
+height:100%;
+margin:0;
+font-family:Arial,Helvetica,sans-serif;
+}
+#slika
+{
+float:left;
+width:33%;
+padding:10px;
+}
+#slika1
+{
+text-align:center;
+width:100%;
+margin-left:auto;
+margin-right:auto;
+}
+#naslov
+{
+float:left;
+padding:8px;
+width:33%;
+}
+#logout
+{
+float:left;
+color:white;
+text-align: center;
+width:30%;
+}
+#naslov1
+{
+float:left;
+padding:8px;
+width:100%;
+}
+#header
+{
+width:100%;
+padding:0px;
+height:130px;
+background-color:#456896;
+}
+#c1
+{
+display:block;
+width:100%;
+margin-left:auto;
+margin-right:auto;
+}
+#header1
+{
+width:100%;
+padding:0px;
+height:320px;
+background-color:#456896;
+}
+#header2
+{
+width:100%;
+padding:0px;
+height:90px;
+background-color:#456896;
+}
+#meni
+{
+height:38px;
+width:100%;
+float:left;
+display: table;
+background-image:url('paternn.jpg');
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+#sadrzaj
+{
+width:100%;
+}
+#statuss{
+width:174px;
+}
+#statuss option{
+width:174px;
+}
+#log2
+{
+height:155px;
+}
+h2, h3
+{
+margin:2px;
+color:white;
+text-align:center;
+}
+h4
+{
+margin-top:2px;
+margin-bottom:0px;
+margin-left:2px;
+margin-right:2px;
+color:white;
+text-align:center;
+}
+.men
+{
+height:100%;
+display: table-cell;
+text-align: center;
+width:5%;
+color:white;
+vertical-align: middle;
+}
+.men2
+{
+height:100%;
+display: table-cell;
+text-align: center;
+width:5%;
+color:white;
+vertical-align: middle;
+}
+.men:hover
+{
+background-color:#f9aa00;
+height:100%;
+display: table-cell;
+text-align: center;
+width:5%;
+color:white;
+vertical-align: middle;
+}
+.men a:hover
+{
+color:#312f81;
+text-decoration:none;
+}
+a.bela
+{
+color:white;
+text-decoration:none;
+}
+.tekst
+{
+padding:35px;
+text-align: center;
+}
+.opcija
+{
+margin:6px;
+}
+.log1
+{
+text-align:right;
+}

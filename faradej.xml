@@ -1,0 +1,57 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="stiloviXML.css"?>
+	<!DOCTYPE fizicar [
+	<!ELEMENT fizicar (biografija,radovi)>
+	<!ELEMENT biografija (ime,rodjen,umro,univerzitet,mentor)>
+	<!ELEMENT ime (#PCDATA)>
+	<!ELEMENT rodjen (datum_r,mesto_r)>
+	<!ELEMENT datum_r (#PCDATA)>
+	<!ELEMENT mesto_r (#PCDATA)>
+	<!ELEMENT umro (datum,mesto)>
+	<!ELEMENT datum (#PCDATA)>
+	<!ELEMENT mesto (#PCDATA)>
+	<!ELEMENT univerzitet (un,smer)>
+	<!ELEMENT un (#PCDATA)>
+	<!ELEMENT smer (#PCDATA)>
+	<!ELEMENT mentor (#PCDATA)>
+	<!ELEMENT radovi (delo+)>
+	<!ELEMENT delo (naziv,mesto_izdavanja)>
+	<!ELEMENT naziv (#PCDATA)>
+	<!ELEMENT mesto_izdavanja (#PCDATA)>
+	]>
+	<fizicar>
+		<biografija>
+			<ime>Michael Faraday</ime>
+			<rodjen>
+				<datum_r>22.09.1791. godine</datum_r>
+				<mesto_r>Newington Butts, England</mesto_r>
+			</rodjen>
+			<umro>
+				<datum>25.08.1867. godine</datum>
+				<mesto>Hampton Court, England</mesto>
+			</umro>
+			<univerzitet>
+				<un>Royal Institution</un>
+				<smer>hemija</smer>
+			</univerzitet>
+			<univerzitet>
+				<un>Royal Society</un>
+				<smer>hemija</smer>
+			</univerzitet>
+			<mentor>William Dance</mentor>
+		</biografija>
+		<radovi>
+			<delo>
+				<naziv>Eksperimentalna istraživanja elektriciteta</naziv>
+				<mesto_izdavanja>Univerzitetska štampa, Liverpul 1827. godine</mesto_izdavanja>
+			</delo>
+			<delo>
+				<naziv>O različitim silama u prirodi</naziv>
+				<mesto_izdavanja>Anali fizike i hemije, 1873. godine</mesto_izdavanja>
+			</delo>
+			<delo>
+				<naziv>O prirodi gasova</naziv>
+				<mesto_izdavanja>Univerzitetsa Biblioteka, Dizeldorf 1862. godine</mesto_izdavanja>
+			</delo>
+		</radovi>
+	</fizicar>
